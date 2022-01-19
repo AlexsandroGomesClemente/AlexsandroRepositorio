@@ -198,3 +198,19 @@ footer p, a {
     font-size: 20px;
     color: white;
 }
+
+
+/*Responsividade*/
+
+@media  (max-width : 960px) {
+    #Quem{
+        flex-direction: column;
+    }
+    #Contato {
+        flex-direction: column-reverse;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
