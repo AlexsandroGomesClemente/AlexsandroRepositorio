@@ -214,3 +214,34 @@ footer p, a {
         flex-direction: column;
     }
 }
+
+@media (max-width : 452px) {
+    .menu {
+        display: none;
+    }
+    
+    .quem-img img {
+        width: 300px;
+    }
+
+    .contact-img img {
+        width: 300px;
+    }
+
+    .email {
+        margin-left: 140px;
+    }
+
+    .card {
+        height: 200px;
+        width: 300px;
+    }
+    .card img {
+        height: 100px;
+        width: 200px;
+    }
+
+    .img-none {
+        display: none;
+    }
+}
