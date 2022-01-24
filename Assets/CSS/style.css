@@ -213,6 +213,10 @@ footer p, a {
     footer {
         flex-direction: column;
     }
+
+    .contact {
+        width: auto;
+    }
 }
 
 @media (max-width : 452px) {
@@ -228,9 +232,6 @@ footer p, a {
         width: 300px;
     }
 
-    .email {
-        margin-left: 140px;
-    }
 
     .card {
         height: 200px;
