@@ -232,6 +232,9 @@ footer p, a {
         width: 300px;
     }
 
+    .contact {
+        height: 300px;
+    }
 
     .card {
         height: 200px;
